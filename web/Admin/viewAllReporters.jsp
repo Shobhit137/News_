@@ -64,8 +64,7 @@
                   <td>Email</td>
                   <td>User-id</td>
                   <td>Photo</td>
-                  <td>DOB</td>
-                  <td>Gender</td>
+                 
                   <td>Status</td>
                   <td>Address</td>
               </tr>
@@ -85,9 +84,8 @@
                   <td><%=repo.getContact()%> </td>
                   <td><%=repo.getEmail()%></td>
                   <td><%=repo.getUserid()%></td>
-                  <td><%= repo.getPhoto()%></td>
-                  <td><%=repo.getDob()%></td>
-                  <td><%=repo.getGender()%></td>
+                  <td><img src="../<%=repo.getPhoto()%>" height="50px" width="70px"/></td>
+                 
                   <td><%= repo.getStatus()%></td>
                   <td><%=repo.getAddress()%></td>
                   

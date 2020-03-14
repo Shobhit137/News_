@@ -70,9 +70,8 @@
               ArrayList<News> newsList = nd.getAllRecords();
               ReporterDao rd = new ReporterDao();
               for(News news : newsList){
-               if(news.getStatus().equalsIgnoreCase("Pending"))
-                  {     
-          %>
+               if(news.getStatus().equalsIgnoreCase("Pending")){
+              %>
               <tr>
                   <td><%=news.getTitle()%></td>
                   <td><%=rd.getById(news.getReporter_id()).getName()%> </td>
@@ -80,7 +79,7 @@
                   <td><%=news.getStatus()%></td>
                   <td><a href="showDetailNews.jsp?newsid=<%=news.getId()%>" class="btn btn-success">View and Change Status</a></td>
               </tr>
-             <%} }%>
+             <%}} %>
           </table>
           <!-- Content Row -->
           

@@ -109,7 +109,7 @@
                             <td><h5>Enter Reporter Password</h5></td>
                             <td><input type="password" name="password" value="${reporter.password}" class="form-control" /></td>
                         </tr>
-                        <input type="hidden" name="status" value="approved"/>
+                        <input type="hidden" name="status" value="pending"/>
                     </table>
                         <input type="submit" value="save and next" name="submit" id="submit" class="form-control btn btn-primary"/>
                 </form>

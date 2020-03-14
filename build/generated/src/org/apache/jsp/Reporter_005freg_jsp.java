@@ -183,7 +183,7 @@ public final class Reporter_005freg_jsp extends org.apache.jasper.runtime.HttpJs
       out.write((java.lang.String) org.apache.jasper.runtime.PageContextImpl.evaluateExpression("${reporter.password}", java.lang.String.class, (PageContext)_jspx_page_context, null));
       out.write("\" class=\"form-control\" /></td>\n");
       out.write("                        </tr>\n");
-      out.write("                        <input type=\"hidden\" name=\"status\" value=\"approved\"/>\n");
+      out.write("                        <input type=\"hidden\" name=\"status\" value=\"pending\"/>\n");
       out.write("                    </table>\n");
       out.write("                        <input type=\"submit\" value=\"save and next\" name=\"submit\" id=\"submit\" class=\"form-control btn btn-primary\"/>\n");
       out.write("                </form>\n");

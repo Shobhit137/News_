@@ -86,7 +86,7 @@
         <div id="collapseFive" class="collapse" aria-labelledby="heading" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
             <h6 class="collapse-header">Custom Actions...</h6>
-            <a class="collapse-item" href="buttons.html">View Subscribers</a>
+            <a class="collapse-item" href="viewSubscriber.jsp">View Subscribers</a>
             <a class="collapse-item" href="buttons.html">View Enquiry</a>
         </div>
         </div>
